@@ -4,7 +4,7 @@ let driver = {}
 function updateDriverWithKeyAndValue(driver, key, value) {
 //should return a new driver with udpated value for key
   const newDriver = {...driver};
-  let newDriver[key] = value ;
+  let newDriver[key] = value;
 
   return newDriver;
 }
